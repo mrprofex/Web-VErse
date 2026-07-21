@@ -1,0 +1,39 @@
+.mainBox{
+    background-color: rgb(65, 116, 188);
+    width: 80%;
+    border-radius: 15px;
+    height: 8vh;
+    padding: 0px 30px;
+    font-size: 25px;
+    display: flex;
+    margin: 0 auto;
+    
+    align-items: center;
+    justify-content: space-between;
+}
+.middle{
+    display: flex;
+    gap: 2rem;
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+.left a{
+    font-size: 35px;
+}
+.left a span{
+    color: lightskyblue;
+}
+
+.right{
+    background-color: rgb(216, 130, 241);
+    height: 50px;
+    display: flex;
+    align-items: center;
+    padding: 0px 10px;
+    border-radius: 15px;
+}
+
+/* rem px vh vw % */
