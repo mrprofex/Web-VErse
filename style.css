@@ -1,6 +1,11 @@
+/* navbox */
+.main{
+    height: 100vh;
+    width: 100vw;
+}
 .mainBox{
     background-color: rgb(65, 116, 188);
-    width: 80%;
+    width: 95%;
     border-radius: 15px;
     height: 8vh;
     padding: 0px 30px;
@@ -34,6 +39,49 @@ a{
     align-items: center;
     padding: 0px 10px;
     border-radius: 15px;
+}
+
+/* box 2  */
+
+.box2{
+    display: flex;
+   
+    width: 97%;
+    font-size: 38px;
+    height: 50vh;
+    letter-spacing: 1px;
+    margin: 0 auto;
+}
+.box2left{
+
+    
+    word-spacing:0pc;
+    width: 47.5%;
+}
+.box2 h1{
+     
+    font-weight: bolder;
+    
+}
+.line1{
+    
+    margin-bottom: 0px;
+    padding: 0;
+    line-height: 1.2;
+    color: black;
+    font-size: 80px;
+}
+.line2{
+    font-size: 50px;
+    margin-top: 5px;
+    margin-bottom: 0px;
+    padding: 0;
+    line-height: 1.2;
+    color: blueviolet;
+}
+.box2right img{
+    height: 50vh;
+    width: 1100px;
 }
 
 /* rem px vh vw % */
